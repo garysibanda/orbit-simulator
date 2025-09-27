@@ -6,8 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		524CC5082E877CB700962621 /* sputnik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4E72E877CB700962621 /* sputnik.cpp */; };
+		524CC5092E877CB700962621 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4DD2E877CB700962621 /* position.cpp */; };
+		524CC50A2E877CB700962621 /* hubble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4CF2E877CB700962621 /* hubble.cpp */; };
+		524CC50B2E877CB700962621 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC5062E877CB700962621 /* velocity.cpp */; };
+		524CC50C2E877CB700962621 /* physics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4DA2E877CB700962621 /* physics.cpp */; };
+		524CC50D2E877CB700962621 /* part.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4D72E877CB700962621 /* part.cpp */; };
+		524CC50E2E877CB700962621 /* fragment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4C92E877CB700962621 /* fragment.cpp */; };
+		524CC50F2E877CB700962621 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4FF2E877CB700962621 /* uiDraw.cpp */; };
+		524CC5102E877CB700962621 /* DreamChaser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4C62E877CB700962621 /* DreamChaser.cpp */; };
+		524CC5112E877CB700962621 /* starlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4EB2E877CB700962621 /* starlink.cpp */; };
+		524CC5122E877CB700962621 /* acceleration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4BD2E877CB700962621 /* acceleration.cpp */; };
+		524CC5132E877CB700962621 /* dragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4C32E877CB700962621 /* dragon.cpp */; };
+		524CC5142E877CB700962621 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC5022E877CB700962621 /* uiInteract.cpp */; };
+		524CC5152E877CB700962621 /* Lab07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4D12E877CB700962621 /* Lab07.cpp */; };
+		524CC5162E877CB700962621 /* satellite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4E42E877CB700962621 /* satellite.cpp */; };
+		524CC5172E877CB700962621 /* gps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4CC2E877CB700962621 /* gps.cpp */; };
+		524CC5182E877CB700962621 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4EE2E877CB700962621 /* test.cpp */; };
+		524CC5192E877CB700962621 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4D32E877CB700962621 /* Makefile */; };
+		524CC51A2E877CB700962621 /* angle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4C02E877CB700962621 /* angle.cpp */; };
+		524CC51B2E877CB700962621 /* projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CC4E02E877CB700962621 /* projectile.cpp */; };
+		524CC5312E877DCA00962621 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CC5302E877DCA00962621 /* OpenGL.framework */; };
+		524CC5332E877DD100962621 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524CC5322E877DD100962621 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		527B1CF32E764B43007F500D /* CopyFiles */ = {
+		524CC4B02E8779FF00962621 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,11 +44,70 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		527B1CF52E764B43007F500D /* OrbitSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrbitSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		524CC4B22E8779FF00962621 /* OrbitSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrbitSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		524CC4BC2E877CB700962621 /* acceleration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = acceleration.h; path = ../acceleration.h; sourceTree = SOURCE_ROOT; };
+		524CC4BD2E877CB700962621 /* acceleration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = acceleration.cpp; path = ../acceleration.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4BF2E877CB700962621 /* angle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = angle.h; path = ../angle.h; sourceTree = SOURCE_ROOT; };
+		524CC4C02E877CB700962621 /* angle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = angle.cpp; path = ../angle.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4C22E877CB700962621 /* dragon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dragon.h; path = ../dragon.h; sourceTree = SOURCE_ROOT; };
+		524CC4C32E877CB700962621 /* dragon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dragon.cpp; path = ../dragon.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4C52E877CB700962621 /* DreamChaser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DreamChaser.h; path = ../DreamChaser.h; sourceTree = SOURCE_ROOT; };
+		524CC4C62E877CB700962621 /* DreamChaser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DreamChaser.cpp; path = ../DreamChaser.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4C82E877CB700962621 /* fragment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fragment.h; path = ../fragment.h; sourceTree = SOURCE_ROOT; };
+		524CC4C92E877CB700962621 /* fragment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fragment.cpp; path = ../fragment.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4CB2E877CB700962621 /* gps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gps.h; path = ../gps.h; sourceTree = SOURCE_ROOT; };
+		524CC4CC2E877CB700962621 /* gps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gps.cpp; path = ../gps.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4CE2E877CB700962621 /* hubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hubble.h; path = ../hubble.h; sourceTree = SOURCE_ROOT; };
+		524CC4CF2E877CB700962621 /* hubble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = hubble.cpp; path = ../hubble.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4D12E877CB700962621 /* Lab07.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Lab07.cpp; path = ../Lab07.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4D32E877CB700962621 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = SOURCE_ROOT; };
+		524CC4D42E877CB700962621 /* orbit */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = orbit; path = ../orbit; sourceTree = SOURCE_ROOT; };
+		524CC4D52E877CB700962621 /* OrbitalObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OrbitalObject.h; path = ../OrbitalObject.h; sourceTree = SOURCE_ROOT; };
+		524CC4D62E877CB700962621 /* part.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = part.h; path = ../part.h; sourceTree = SOURCE_ROOT; };
+		524CC4D72E877CB700962621 /* part.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = part.cpp; path = ../part.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4D92E877CB700962621 /* physics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = physics.h; path = ../physics.h; sourceTree = SOURCE_ROOT; };
+		524CC4DA2E877CB700962621 /* physics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = physics.cpp; path = ../physics.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4DC2E877CB700962621 /* position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = position.h; path = ../position.h; sourceTree = SOURCE_ROOT; };
+		524CC4DD2E877CB700962621 /* position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = position.cpp; path = ../position.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4DF2E877CB700962621 /* projectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = projectile.h; path = ../projectile.h; sourceTree = SOURCE_ROOT; };
+		524CC4E02E877CB700962621 /* projectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = projectile.cpp; path = ../projectile.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4E22E877CB700962621 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
+		524CC4E32E877CB700962621 /* satellite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = satellite.h; path = ../satellite.h; sourceTree = SOURCE_ROOT; };
+		524CC4E42E877CB700962621 /* satellite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = satellite.cpp; path = ../satellite.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4E62E877CB700962621 /* sputnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sputnik.h; path = ../sputnik.h; sourceTree = SOURCE_ROOT; };
+		524CC4E72E877CB700962621 /* sputnik.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sputnik.cpp; path = ../sputnik.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4E92E877CB700962621 /* star.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = star.h; path = ../star.h; sourceTree = SOURCE_ROOT; };
+		524CC4EA2E877CB700962621 /* starlink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = starlink.h; path = ../starlink.h; sourceTree = SOURCE_ROOT; };
+		524CC4EB2E877CB700962621 /* starlink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = starlink.cpp; path = ../starlink.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4ED2E877CB700962621 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = test.h; path = ../test.h; sourceTree = SOURCE_ROOT; };
+		524CC4EE2E877CB700962621 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = ../test.cpp; sourceTree = SOURCE_ROOT; };
+		524CC4F02E877CB700962621 /* testAcceleration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testAcceleration.h; path = ../testAcceleration.h; sourceTree = SOURCE_ROOT; };
+		524CC4F12E877CB700962621 /* testAngle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testAngle.h; path = ../testAngle.h; sourceTree = SOURCE_ROOT; };
+		524CC4F22E877CB700962621 /* testDragon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testDragon.h; path = ../testDragon.h; sourceTree = SOURCE_ROOT; };
+		524CC4F32E877CB700962621 /* testDreamChaser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testDreamChaser.h; path = ../testDreamChaser.h; sourceTree = SOURCE_ROOT; };
+		524CC4F42E877CB700962621 /* testFragment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testFragment.h; path = ../testFragment.h; sourceTree = SOURCE_ROOT; };
+		524CC4F52E877CB700962621 /* testGPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testGPS.h; path = ../testGPS.h; sourceTree = SOURCE_ROOT; };
+		524CC4F62E877CB700962621 /* testHubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testHubble.h; path = ../testHubble.h; sourceTree = SOURCE_ROOT; };
+		524CC4F72E877CB700962621 /* testOrbitalObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testOrbitalObject.h; path = ../testOrbitalObject.h; sourceTree = SOURCE_ROOT; };
+		524CC4F82E877CB700962621 /* testPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testPart.h; path = ../testPart.h; sourceTree = SOURCE_ROOT; };
+		524CC4F92E877CB700962621 /* testPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testPosition.h; path = ../testPosition.h; sourceTree = SOURCE_ROOT; };
+		524CC4FA2E877CB700962621 /* testSatellite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testSatellite.h; path = ../testSatellite.h; sourceTree = SOURCE_ROOT; };
+		524CC4FB2E877CB700962621 /* testSputnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testSputnik.h; path = ../testSputnik.h; sourceTree = SOURCE_ROOT; };
+		524CC4FC2E877CB700962621 /* testStarlink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testStarlink.h; path = ../testStarlink.h; sourceTree = SOURCE_ROOT; };
+		524CC4FD2E877CB700962621 /* testVelocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testVelocity.h; path = ../testVelocity.h; sourceTree = SOURCE_ROOT; };
+		524CC4FE2E877CB700962621 /* uiDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uiDraw.h; path = ../uiDraw.h; sourceTree = SOURCE_ROOT; };
+		524CC4FF2E877CB700962621 /* uiDraw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = uiDraw.cpp; path = ../uiDraw.cpp; sourceTree = SOURCE_ROOT; };
+		524CC5012E877CB700962621 /* uiInteract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uiInteract.h; path = ../uiInteract.h; sourceTree = SOURCE_ROOT; };
+		524CC5022E877CB700962621 /* uiInteract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = uiInteract.cpp; path = ../uiInteract.cpp; sourceTree = SOURCE_ROOT; };
+		524CC5042E877CB700962621 /* unitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = unitTest.h; path = ../unitTest.h; sourceTree = SOURCE_ROOT; };
+		524CC5052E877CB700962621 /* velocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = velocity.h; path = ../velocity.h; sourceTree = SOURCE_ROOT; };
+		524CC5062E877CB700962621 /* velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = velocity.cpp; path = ../velocity.cpp; sourceTree = SOURCE_ROOT; };
+		524CC5302E877DCA00962621 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		524CC5322E877DD100962621 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		527B1CF72E764B43007F500D /* OrbitSimulator */ = {
+		524CC4B42E8779FF00962621 /* OrbitSimulator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = OrbitSimulator;
 			sourceTree = "<group>";
@@ -31,102 +115,191 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		527B1CF22E764B43007F500D /* Frameworks */ = {
+		524CC4AF2E8779FF00962621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524CC5332E877DD100962621 /* GLUT.framework in Frameworks */,
+				524CC5312E877DCA00962621 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		527B1CEC2E764B43007F500D = {
+		524CC4A92E8779FF00962621 = {
 			isa = PBXGroup;
 			children = (
-				527B1CF72E764B43007F500D /* OrbitSimulator */,
-				527B1CF62E764B43007F500D /* Products */,
+				524CC4BC2E877CB700962621 /* acceleration.h */,
+				524CC4BD2E877CB700962621 /* acceleration.cpp */,
+				524CC4BF2E877CB700962621 /* angle.h */,
+				524CC4C02E877CB700962621 /* angle.cpp */,
+				524CC4C22E877CB700962621 /* dragon.h */,
+				524CC4C32E877CB700962621 /* dragon.cpp */,
+				524CC4C52E877CB700962621 /* DreamChaser.h */,
+				524CC4C62E877CB700962621 /* DreamChaser.cpp */,
+				524CC4C82E877CB700962621 /* fragment.h */,
+				524CC4C92E877CB700962621 /* fragment.cpp */,
+				524CC4CB2E877CB700962621 /* gps.h */,
+				524CC4CC2E877CB700962621 /* gps.cpp */,
+				524CC4CE2E877CB700962621 /* hubble.h */,
+				524CC4CF2E877CB700962621 /* hubble.cpp */,
+				524CC4D12E877CB700962621 /* Lab07.cpp */,
+				524CC4D32E877CB700962621 /* Makefile */,
+				524CC4D42E877CB700962621 /* orbit */,
+				524CC4D52E877CB700962621 /* OrbitalObject.h */,
+				524CC4D62E877CB700962621 /* part.h */,
+				524CC4D72E877CB700962621 /* part.cpp */,
+				524CC4D92E877CB700962621 /* physics.h */,
+				524CC4DA2E877CB700962621 /* physics.cpp */,
+				524CC4DC2E877CB700962621 /* position.h */,
+				524CC4DD2E877CB700962621 /* position.cpp */,
+				524CC4DF2E877CB700962621 /* projectile.h */,
+				524CC4E02E877CB700962621 /* projectile.cpp */,
+				524CC4E22E877CB700962621 /* README.md */,
+				524CC4E32E877CB700962621 /* satellite.h */,
+				524CC4E42E877CB700962621 /* satellite.cpp */,
+				524CC4E62E877CB700962621 /* sputnik.h */,
+				524CC4E72E877CB700962621 /* sputnik.cpp */,
+				524CC4E92E877CB700962621 /* star.h */,
+				524CC4EA2E877CB700962621 /* starlink.h */,
+				524CC4EB2E877CB700962621 /* starlink.cpp */,
+				524CC4ED2E877CB700962621 /* test.h */,
+				524CC4EE2E877CB700962621 /* test.cpp */,
+				524CC4F02E877CB700962621 /* testAcceleration.h */,
+				524CC4F12E877CB700962621 /* testAngle.h */,
+				524CC4F22E877CB700962621 /* testDragon.h */,
+				524CC4F32E877CB700962621 /* testDreamChaser.h */,
+				524CC4F42E877CB700962621 /* testFragment.h */,
+				524CC4F52E877CB700962621 /* testGPS.h */,
+				524CC4F62E877CB700962621 /* testHubble.h */,
+				524CC4F72E877CB700962621 /* testOrbitalObject.h */,
+				524CC4F82E877CB700962621 /* testPart.h */,
+				524CC4F92E877CB700962621 /* testPosition.h */,
+				524CC4FA2E877CB700962621 /* testSatellite.h */,
+				524CC4FB2E877CB700962621 /* testSputnik.h */,
+				524CC4FC2E877CB700962621 /* testStarlink.h */,
+				524CC4FD2E877CB700962621 /* testVelocity.h */,
+				524CC4FE2E877CB700962621 /* uiDraw.h */,
+				524CC4FF2E877CB700962621 /* uiDraw.cpp */,
+				524CC5012E877CB700962621 /* uiInteract.h */,
+				524CC5022E877CB700962621 /* uiInteract.cpp */,
+				524CC5042E877CB700962621 /* unitTest.h */,
+				524CC5052E877CB700962621 /* velocity.h */,
+				524CC5062E877CB700962621 /* velocity.cpp */,
+				524CC4B42E8779FF00962621 /* OrbitSimulator */,
+				524CC52F2E877DCA00962621 /* Frameworks */,
+				524CC4B32E8779FF00962621 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		527B1CF62E764B43007F500D /* Products */ = {
+		524CC4B32E8779FF00962621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				527B1CF52E764B43007F500D /* OrbitSimulator */,
+				524CC4B22E8779FF00962621 /* OrbitSimulator */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		524CC52F2E877DCA00962621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				524CC5322E877DD100962621 /* GLUT.framework */,
+				524CC5302E877DCA00962621 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		527B1CF42E764B43007F500D /* OrbitSimulator */ = {
+		524CC4B12E8779FF00962621 /* OrbitSimulator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 527B1CFC2E764B43007F500D /* Build configuration list for PBXNativeTarget "OrbitSimulator" */;
+			buildConfigurationList = 524CC4B92E8779FF00962621 /* Build configuration list for PBXNativeTarget "OrbitSimulator" */;
 			buildPhases = (
-				527B1CF12E764B43007F500D /* Sources */,
-				527B1CF22E764B43007F500D /* Frameworks */,
-				527B1CF32E764B43007F500D /* CopyFiles */,
+				524CC4AE2E8779FF00962621 /* Sources */,
+				524CC4AF2E8779FF00962621 /* Frameworks */,
+				524CC4B02E8779FF00962621 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				527B1CF72E764B43007F500D /* OrbitSimulator */,
+				524CC4B42E8779FF00962621 /* OrbitSimulator */,
 			);
 			name = OrbitSimulator;
 			packageProductDependencies = (
 			);
 			productName = OrbitSimulator;
-			productReference = 527B1CF52E764B43007F500D /* OrbitSimulator */;
+			productReference = 524CC4B22E8779FF00962621 /* OrbitSimulator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		527B1CED2E764B43007F500D /* Project object */ = {
+		524CC4AA2E8779FF00962621 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					527B1CF42E764B43007F500D = {
+					524CC4B12E8779FF00962621 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 527B1CF02E764B43007F500D /* Build configuration list for PBXProject "OrbitSimulator" */;
+			buildConfigurationList = 524CC4AD2E8779FF00962621 /* Build configuration list for PBXProject "OrbitSimulator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 527B1CEC2E764B43007F500D;
+			mainGroup = 524CC4A92E8779FF00962621;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 527B1CF62E764B43007F500D /* Products */;
+			productRefGroup = 524CC4B32E8779FF00962621 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				527B1CF42E764B43007F500D /* OrbitSimulator */,
+				524CC4B12E8779FF00962621 /* OrbitSimulator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		527B1CF12E764B43007F500D /* Sources */ = {
+		524CC4AE2E8779FF00962621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524CC5082E877CB700962621 /* sputnik.cpp in Sources */,
+				524CC5092E877CB700962621 /* position.cpp in Sources */,
+				524CC50A2E877CB700962621 /* hubble.cpp in Sources */,
+				524CC50B2E877CB700962621 /* velocity.cpp in Sources */,
+				524CC50C2E877CB700962621 /* physics.cpp in Sources */,
+				524CC50D2E877CB700962621 /* part.cpp in Sources */,
+				524CC50E2E877CB700962621 /* fragment.cpp in Sources */,
+				524CC50F2E877CB700962621 /* uiDraw.cpp in Sources */,
+				524CC5102E877CB700962621 /* DreamChaser.cpp in Sources */,
+				524CC5112E877CB700962621 /* starlink.cpp in Sources */,
+				524CC5122E877CB700962621 /* acceleration.cpp in Sources */,
+				524CC5132E877CB700962621 /* dragon.cpp in Sources */,
+				524CC5142E877CB700962621 /* uiInteract.cpp in Sources */,
+				524CC5152E877CB700962621 /* Lab07.cpp in Sources */,
+				524CC5162E877CB700962621 /* satellite.cpp in Sources */,
+				524CC5172E877CB700962621 /* gps.cpp in Sources */,
+				524CC5182E877CB700962621 /* test.cpp in Sources */,
+				524CC5192E877CB700962621 /* Makefile in Sources */,
+				524CC51A2E877CB700962621 /* angle.cpp in Sources */,
+				524CC51B2E877CB700962621 /* projectile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		527B1CFA2E764B43007F500D /* Debug */ = {
+		524CC4B72E8779FF00962621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		527B1CFB2E764B43007F500D /* Release */ = {
+		524CC4B82E8779FF00962621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +416,7 @@
 			};
 			name = Release;
 		};
-		527B1CFD2E764B43007F500D /* Debug */ = {
+		524CC4BA2E8779FF00962621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +426,7 @@
 			};
 			name = Debug;
 		};
-		527B1CFE2E764B43007F500D /* Release */ = {
+		524CC4BB2E8779FF00962621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +439,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		527B1CF02E764B43007F500D /* Build configuration list for PBXProject "OrbitSimulator" */ = {
+		524CC4AD2E8779FF00962621 /* Build configuration list for PBXProject "OrbitSimulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				527B1CFA2E764B43007F500D /* Debug */,
-				527B1CFB2E764B43007F500D /* Release */,
+				524CC4B72E8779FF00962621 /* Debug */,
+				524CC4B82E8779FF00962621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		527B1CFC2E764B43007F500D /* Build configuration list for PBXNativeTarget "OrbitSimulator" */ = {
+		524CC4B92E8779FF00962621 /* Build configuration list for PBXNativeTarget "OrbitSimulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				527B1CFD2E764B43007F500D /* Debug */,
-				527B1CFE2E764B43007F500D /* Release */,
+				524CC4BA2E8779FF00962621 /* Debug */,
+				524CC4BB2E8779FF00962621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 527B1CED2E764B43007F500D /* Project object */;
+	rootObject = 524CC4AA2E8779FF00962621 /* Project object */;
 }
